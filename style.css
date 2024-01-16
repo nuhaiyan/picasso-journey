@@ -673,6 +673,11 @@ line-height: normal;
 .foot-hr{
     width: 872px;
 height: 1px;
+margin-top: 30px;
+}
+.foot-icon{
+    display: flex;
+    gap: 20px;
 }
 
 
@@ -927,7 +932,32 @@ height: 1px;
     #select2 {
         width: 277px;
     }
-    
-    
+    .footer{
+        width: 375px;
+        height: 360px;
+    }
+    .footer-des{
+        width: 287px;
+        font-size: 14px;
+    }
+    .h2-foot{
+        font-size: 22px;
+    } 
+    .span1{
+        font-size: 22px;
+    }
+    .foot-contain img{
+        margin-top: 60px;
+    }
+    .h2-foot {
+        margin-top: 70px;
+    }
+    .foot-hr{
+        width: 350px;
+        margin-right: 0px;
+    }
+    .copydiv{
+        margin: 0px;
+    }
 
 }
