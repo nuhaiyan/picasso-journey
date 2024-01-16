@@ -335,6 +335,88 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 }
 
 
+.sec4-title{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.sec4-des{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.sec4-p3-1-1{
+    padding-bottom: -30px;
+    padding-left:30px;
+    padding-top: 30px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.sec4-p3-1-2{
+    padding-bottom: -30px;
+    padding-left:30px;
+    padding-top: 30px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.sec4-p3-2-1{
+    padding-bottom: -30px;
+    padding-left:30px;
+    padding-top: 30px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.sec4-p3-1{
+    display: flex;
+    gap: 20px;
+}
+.section-4{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec4-p3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.sec4-p3-2{
+    margin-top: 20px;
+}
+
 
 
 
@@ -472,5 +554,37 @@ flex-shrink: 0;
 background-repeat: no-repeat;
 
     }
-    
+    .sec4-p3-1{
+        flex-direction: column;
+    }
+    .sec4-title{
+        color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .sec4-des{
+        width: 309px;
+    }
+    .sec4-p3-1-1{
+        width: 335px;
+height: 289px;
+flex-shrink: 0;
+    }
+    .sec4-p3-1-2{
+        width: 335px;
+height: 289px;
+flex-shrink: 0;
+    }
+    .sec4-p3-2-1{
+        width: 335px;
+height: 289px;
+flex-shrink: 0;
+    }
+    .section-4{
+        margin-top: 20px;
+    }
 }
