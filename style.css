@@ -690,6 +690,165 @@ margin-top: 30px;
     display: flex;
     gap: 20px;
 }
+.section-bonus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.secb-p1{
+    color: #FF5400;
+    
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 26px;
+}
+.secb-p2{
+    margin-top: -25px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.secb-des{
+    
+    margin-top: -35px;
+    margin-bottom: 40px;
+    color: rgba(19, 19, 24, 0.70);
+    width: 650px;
+    font-family: Mulish;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.t1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 574px;
+height: 286px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/adventure.webp), lightgray 50% / cover no-repeat;
+display: block;
+    transition: transform 0.5s;
+}
+.t2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 574px;
+height: 286px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/culture.png), lightgray 50% / cover no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    transition: transform 0.5s;
+}
+.t3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 574px;
+height: 286px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/hiking.jpg), lightgray 50% / cover no-repeat;
+display: block;
+    transition: transform 0.5s;
+}
+.t4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 574px;
+height: 286px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/rom.jpeg), lightgray 50% / cover no-repeat;
+background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    display: block;
+    transition: transform 0.5s;
+}
+.t1:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+}
+.t1>h3{
+    text-align: center;
+    margin-top: 120px;
+}
+.t2:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+}
+.t2>h3{
+    text-align: center;
+    margin-top: 120px;
+}
+.t3:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+}
+.t3>h3{
+    text-align: center;
+    margin-top: 120px;
+}
+.t4:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+}
+.t4>h3{
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+.secb-p3{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.secb-p4{
+    display: flex;
+    gap: 30px;
+}
 
 
 
@@ -970,5 +1129,50 @@ height: 1px;
     .copydiv{
         margin: 0px;
     }
-
+    .secb-p3{
+        flex-direction: column;
+    }
+    .secb-p4{
+        flex-direction: column;
+    }
+    .t1{
+        width: 325px;
+    height: 286px;
+    margin: 0px auto;
+    }
+    .t2{
+        width: 325px;
+    height: 286px;
+    margin: 0px auto;
+    }
+    .t3{
+        width: 325px;
+    height: 286px;
+    margin: 0px auto;
+    }
+    .t4{
+        width: 325px;
+    height: 286px;
+    margin: 0px auto;
+    }
+    .secb-des{
+        width: 335px;
+        font-size: 12px;
+        padding-left: 10px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .secb-p2{
+        margin-top: -5px;
+    padding-left: 10px;
+    margin-bottom: 45px;
+    font-size: 17px;
+    }
+    .secb-p1{
+        font-size: 25px;
+    margin-bottom: -15px;
+    padding-left: 10px;
+    }
+    
+    
 }
