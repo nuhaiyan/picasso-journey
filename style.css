@@ -75,7 +75,7 @@ width: 1170px;
 height: 500px;
 flex-shrink: 0;
 }
-#select1{
+.select1{
     width: 174px;
     height: 52px;
     border: none;
@@ -91,7 +91,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-#select2{
+.select2{
     width: 174px;
     height: 52px;
     border: none;
@@ -170,6 +170,16 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+}
+.btn-pri:hover,.btn-pri:focus,.btn-pri:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .section-2{
     display: flex;
@@ -504,7 +514,8 @@ flex-shrink: 0;
 }
 .sec5-p2 video{
     height: 400px;
-            flex-shrink: 0;border-radius: 20px 20px 20px 20px;
+            flex-shrink: 0;
+            border-radius: 20px 20px 20px 20px;
 
 }
 .sec6-title{
@@ -926,10 +937,10 @@ height: 1px;
     .of-title{
         font-size: 16px;
     }
-    #select1 {
+    .select1 {
         width: 277px;
     }
-    #select2 {
+    .select2 {
         width: 277px;
     }
     .footer{
